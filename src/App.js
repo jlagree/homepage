@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import Greeting from './components/Greeting';
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <Greeting />
+      <Header />
+      <Footer />
     </div>
   );
 }
+
 
 export default App;
