@@ -7,8 +7,11 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <header />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  document.getElementById('header')
+
 );
 
 // If you want to start measuring performance in your app, pass a function
