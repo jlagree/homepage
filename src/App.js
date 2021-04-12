@@ -11,21 +11,21 @@ function App() {
   }
   return (
     <div>
-      <nav>
-            <ul style={myStyle}>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/About">About</Link>
-              </li>
-            </ul>
-      </nav>
       <Router>
-          <Switch>
-            <Route path="/About" component={About}/>
-            <Route path="/" exact component={Home}/>
-          </Switch>
+        <nav>
+              <ul style={myStyle}>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/About">About</Link>
+                </li>
+              </ul>
+        </nav>
+        <Switch>
+          <Route path="/About" component={About}/>
+          <Route path="/" exact component={Home}/>
+        </Switch>
       </Router>
     </div>
   );
