@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-const header = () => {
+const Header = () => {
     return (
         <header>
-            <img src={pic}></img>
             <h1>My Website Header!</h1>
         </header>
     )
@@ -12,7 +11,7 @@ const header = () => {
 
 ReactDOM.render(
     <React.StrictMode>
-        <Footer />
+        <Header />
     </React.StrictMode>,
     document.getElementById('header')
 );
