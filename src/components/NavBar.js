@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react';
+import {Route, Switch, BrowserRouter as Router} from "react-router-dom";
+import Home from './components/Home';
+import About from './components/About';
+import ReactDOM from "react-dom"
 
-const 
-NavBar = () => {
-    return (
-        <>
-        <h1>Navbar feature here</h1>
-        </>
-    )
+function NavBar() {
+  return (
+    <Router>
+      <Switch>
+        <Route path='/about' component={About}/>
+        <Route path='/' component={Home}/>
+      </Switch>
+    </Router>
+  );
 }
 
-export default NavBar
+ReactDOM.render(
+    <React.StrictMode>
+        <NavBar/>
+    </React.StrictMode>,
+    document.getElementById('navbar')
+);
+
+
+

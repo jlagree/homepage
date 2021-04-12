@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Header from './components/Header'
-import Footer from './components/Footer'
-import NavBar from './components/NavBar'
+import {Route, Switch, BrowserRouter as Router} from "react-router-dom";
+import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-    </div>
+    <>
+    </>
   );
 }
 
