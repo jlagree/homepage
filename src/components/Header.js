@@ -1,4 +1,5 @@
-import pic from './Assets/HeadImage'
+import React from 'react'
+import ReactDOM from 'react-dom';
 
 const header = () => {
     return (
@@ -9,4 +10,9 @@ const header = () => {
     )
 }
 
-export default header
+ReactDOM.render(
+    <React.StrictMode>
+        <Footer />
+    </React.StrictMode>,
+    document.getElementById('header')
+);
