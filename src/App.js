@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Switch, List} from "react-router-dom";
-import Home from './components/Home';
-import About from './components/About';
+// import React, { Component } from 'react';
+// import {BrowserRouter as Router, Route, Switch, List} from "react-router-dom";
+// import Home from './components/Home';
+// import About from './components/About';
 
 
 function App() {
