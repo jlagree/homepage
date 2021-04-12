@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
+import Container from 'react-bootstrap/Container';
 
 function App() {
   const myStyle = {
@@ -12,16 +13,20 @@ function App() {
   return (
     <div>
       <Router>
+        <Container>
         <nav>
               <ul style={myStyle}>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/About">About</Link>
-                </li>
+                <Row>
+                  <Col><li>
+                    <Link to="/">Home</Link>
+                  </li></Col>
+                  <Col><li>
+                    <Link to="/About">About</Link>
+                  </li></Col>
+                </Row>
               </ul>
         </nav>
+        </Container>
         <Switch>
           <Route path="/About" component={About}/>
           <Route path="/" exact component={Home}/>
