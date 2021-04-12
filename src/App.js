@@ -11,8 +11,8 @@ function App() {
   }
   return (
     <div>
-      <nav style={myStyle}>
-            <ul>
+      <nav>
+            <ul style={myStyle}>
               <li>
                 <Link to="/">Home</Link>
               </li>
