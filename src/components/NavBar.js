@@ -7,9 +7,10 @@ import ReactDOM from "react-dom"
 function NavBar() {
   return (
     <Router>
+      <h1>NavBar stuff</h1>
       <Switch>
         <Route path='/about' component={About}/>
-        <Route path='/' component={Home}/>
+        <Route path='/' exact component={Home}/>
       </Switch>
     </Router>
   );
