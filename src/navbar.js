@@ -19,7 +19,7 @@ class BootstrapNavbar extends React.Component{
                     <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home">React Bootstrap Navbar</Navbar.Brand>
+                                <Navbar.Brand href="#home">My Site!</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
@@ -36,9 +36,6 @@ class BootstrapNavbar extends React.Component{
                                 <Route path="/About">
                                     <About />
                                 </Route>
-                                {/* <Route path="/contact-us">
-                                    <ContactUs />
-                                </Route> */}
                             </Switch>
                         </Router>
                     </div>
