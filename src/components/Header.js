@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 
 const HeaderFunc = () => {
     return (
-        <header>
-            <h1>My Website Header!</h1>
-        </header>
+        <div>
+             <h1>My Website Header!</h1>
+        </div>        
     )
 }
 
