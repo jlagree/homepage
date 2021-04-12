@@ -7,24 +7,25 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <Router>
-      <div className="container">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/About">About</Link>
-            </li>
-          </ul>
-        </nav>
-        <Switch>
-          <Route path="/About" component={About}/>
-          <Route path="/" exact component={Home}/>
-        </Switch>
-      </div>
-    </Router>
+    // <Router>
+    //     <nav>
+    //       <ul>
+    //         <li>
+    //           <Link to="/">Home</Link>
+    //         </li>
+    //         <li>
+    //           <Link to="/About">About</Link>
+    //         </li>
+    //       </ul>
+    //     </nav>
+    //     <Switch>
+    //       <Route path="/About" component={About}/>
+    //       <Route path="/" exact component={Home}/>
+    //     </Switch>
+    // </Router>
+    <div>
+      <About/>
+    </div>
   );
 }
 
