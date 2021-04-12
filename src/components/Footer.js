@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-const Footer = () => {
+const FooterFunc = () => {
     return (
         <div>
             <h1>This will be my footer!</h1>
@@ -10,5 +10,5 @@ const Footer = () => {
 }
 
 ReactDOM.render(
-    <Footer />, document.getElementById('footer')
+    <FooterFunc />, document.getElementById('myFooter')
 );

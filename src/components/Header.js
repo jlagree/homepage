@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-const Header = () => {
+const HeaderFunc = () => {
     return (
         <header>
             <h1>My Website Header!</h1>
@@ -10,5 +10,5 @@ const Header = () => {
 }
 
 ReactDOM.render(
-    <Header />, document.getElementById('header')
+    <HeaderFunc />, document.getElementById('myHeader')
 );
