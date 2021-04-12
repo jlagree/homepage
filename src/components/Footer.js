@@ -9,10 +9,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-// ReactDOM.render(
-//     <React.StrictMode>
-//         <Footer />
-//     </React.StrictMode>, 
-//     document.getElementById('myFooter')
-// );

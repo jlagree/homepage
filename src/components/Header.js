@@ -10,10 +10,3 @@ const Header = () => {
 }
 
 export default Header
-
-// ReactDOM.render(
-//     <React.StrictMode>
-//         <Header />
-//     </React.StrictMode>, 
-//     document.getElementById('myHeader')
-// );
