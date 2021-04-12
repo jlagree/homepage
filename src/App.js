@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   const myStyle = {
