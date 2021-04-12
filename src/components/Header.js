@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom';
 const HeaderFunc = () => {
     return (
         <div>
-             <h1>My Website Header!</h1>
+            <h1>My Website Header!</h1>
         </div>        
     )
 }
+export default HeaderFunc
 
 ReactDOM.render(
     <React.StrictMode>
