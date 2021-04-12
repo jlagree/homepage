@@ -5,10 +5,15 @@ import About from './components/About';
 
 
 function App() {
+  const myStyle = {
+    display: "inline",
+    padding: "10px",
+    width: "100%"
+  }
   return (
     <Router>
       <div className="container">
-        <nav>
+        <nav style={myStyle}>
           <ul>
             <li>
               <Link to="/">Home</Link>
