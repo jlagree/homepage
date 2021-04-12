@@ -1,7 +1,9 @@
+import pic from './pics/header.jpeg'
+
 const header = () => {
     return (
         <header>
-            <img src='./pics/header.jpeg'></img>
+            <img src={pic}></img>
             <h1>My Website Header!</h1>
         </header>
     )
