@@ -16,6 +16,13 @@ function App() {
   }
   return (
     <div>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav className="mr-auto">
+        <Nav.Link href={Home}>Home</Nav.Link>
+        <Nav.Link href={About}>About</Nav.Link>
+        </Nav>
+      </Navbar>
       <Router>
         {/* <Container>
         <nav>
@@ -31,14 +38,6 @@ function App() {
               </ul>
         </nav>
         </Container> */}
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-        <Nav.Link href={Home}>Home</Nav.Link>
-        <Nav.Link href={About}>About</Nav.Link>
-        </Nav>
-      </Navbar>
-
         <Switch>
           <Route path="/About" component={About}/>
           <Route path="/" exact component={Home}/>
