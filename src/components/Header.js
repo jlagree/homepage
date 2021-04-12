@@ -10,8 +10,5 @@ const Header = () => {
 }
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Header />
-    </React.StrictMode>,
-    document.getElementById('header')
+    <Header />, document.getElementById('header')
 );
