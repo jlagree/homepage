@@ -11,14 +11,7 @@ ReactDOM.render(
     <Header/>
   </React.StrictMode>,
   document.getElementById('header')
-)
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Footer/>
-  </React.StrictMode>,
-  document.getElementById('footer')
-)
+);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +19,13 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('content')
 
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Footer/>
+  </React.StrictMode>,
+  document.getElementById('footer')
 );
 
 // If you want to start measuring performance in your app, pass a function
