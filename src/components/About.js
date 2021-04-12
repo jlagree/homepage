@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from "react-dom"
 
 const About = () => {
     return (
@@ -37,11 +36,11 @@ const About = () => {
     )
 }
 
-// export default About
+export default About
 
-ReactDOM.render(
-  <React.StrictMode>
-    <About/>
-  </React.StrictMode>,
-  document.getElementById('content')
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <About/>
+//   </React.StrictMode>,
+//   document.getElementById('content')
+// );

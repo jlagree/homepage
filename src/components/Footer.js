@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 
 const Footer = () => {
     return (
@@ -9,9 +8,11 @@ const Footer = () => {
     )
 }
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Footer />
-    </React.StrictMode>, 
-    document.getElementById('myFooter')
-);
+export default Footer
+
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <Footer />
+//     </React.StrictMode>, 
+//     document.getElementById('myFooter')
+// );

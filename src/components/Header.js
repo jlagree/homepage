@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
+
 
 const Header = () => {
     return (
@@ -8,11 +8,11 @@ const Header = () => {
         </div>        
     )
 }
-//export default Header
+export default Header
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Header />
-    </React.StrictMode>, 
-    document.getElementById('myHeader')
-);
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <Header />
+//     </React.StrictMode>, 
+//     document.getElementById('myHeader')
+// );
