@@ -6,14 +6,15 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router>
-      <div className="container">
-        <Switch>
-          <Route path="/about" component={About}/>
-          <Route path="/" exact component={Home}/>
-        </Switch>
-      </div>
-    </Router>
+    // <Router>
+    //   <div className="container">
+    //     <Switch>
+    //       <Route path="/about" component={About}/>
+    //       <Route path="/" exact component={Home}/>
+    //     </Switch>
+    //   </div>
+    // </Router>
+    <About />
   );
 }
 
