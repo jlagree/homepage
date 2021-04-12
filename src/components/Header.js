@@ -10,5 +10,8 @@ const HeaderFunc = () => {
 }
 
 ReactDOM.render(
-    <HeaderFunc />, document.getElementById('myHeader')
+    <React.StrictMode>
+        <HeaderFunc />
+    </React.StrictMode>, 
+    document.getElementById('myHeader')
 );
