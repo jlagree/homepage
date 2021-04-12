@@ -37,12 +37,11 @@ const About = () => {
     )
 }
 
-export default About
+// export default About
 
 ReactDOM.render(
   <React.StrictMode>
     <About/>
   </React.StrictMode>,
   document.getElementById('content')
-
 );

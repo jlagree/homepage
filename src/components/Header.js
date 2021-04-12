@@ -8,7 +8,7 @@ const Header = () => {
         </div>        
     )
 }
-export default Header
+//export default Header
 
 ReactDOM.render(
     <React.StrictMode>
