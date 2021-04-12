@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const About = () => {
     return (
         <div>
+            <Header/>
                 <h3>Hello and Welcome!</h3>
                 <p>My name is Jeremy LaGree. I am currently in my senior year at
                 Colorado Mesa University. I am writing this page for an assignment
@@ -32,6 +35,7 @@ const About = () => {
                 extremely inviting to a new developer, I am getting by and hope to continue to grow with the company
                 and grow as a developer!
                 </p>
+                <Footer/>
         </div>
     )
 }
