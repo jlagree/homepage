@@ -5,9 +5,9 @@ import {
     Route,
     useParams,
   } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
-  import Home from './components/Home';
-  import About from './components/About';
+import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
+import Home from './components/Home';
+import About from './components/About';
 //   import AboutUs from './components/AboutUs';
 //   import ContactUs from './ContactUs';
 
