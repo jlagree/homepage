@@ -1,17 +1,15 @@
 import React from 'react'
-import headerImage from './spaceHeader.jpeg';
+import headerImage from './woodimage.jpg';
 
 const Header = () => {
     const imgStyle = {
         position: "absolute",
-        top: "5px",
-        left: "10px",
-        height: "75px",
+        height: "100px",
         width: "100%"
     }
     return (
         <div className="image">
-            <img src={headerImage} style={imgStyle}/>
+            <img src={headerImage} style={imgStyle}/> <br/>
             <h1>My Website Header!</h1>
         </div>        
     )
