@@ -6,11 +6,12 @@ const Header = () => {
         position: "absolute",
         top: "5px",
         left: "10px",
-        height: "75px"
+        height: "75px",
+        width: "100%"
     }
     return (
         <div className="image">
-            <span><img src={headerImage} style={imgStyle}/></span>
+            <img src={headerImage} style={imgStyle}/>
             <h1>My Website Header!</h1>
         </div>        
     )
