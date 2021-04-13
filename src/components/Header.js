@@ -8,7 +8,7 @@ const Header = () => {
         right: "2px",
         bottom: "2px",
         width: "100%",
-        height: "15%"
+        height: "10%"
     }
     return (
         <div className="headerWithImage">
