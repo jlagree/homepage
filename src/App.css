@@ -1,14 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.headerWithImage{
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  width: 100%;
-}
 
 .footer{
   position: fixed;
@@ -39,5 +28,4 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  font-size: large;
 }
