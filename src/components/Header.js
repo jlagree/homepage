@@ -3,8 +3,8 @@ import headerImage from './spaceHeader.jpeg';
 
 const Header = () => {
     return (
-        <div>
-            <span><img src={headerImage} /></span>
+        <div className="image">
+            <span><img src={headerImage} height="15px" /></span>
             <h1>My Website Header!</h1>
         </div>        
     )
