@@ -1,5 +1,5 @@
 import React from 'react'
-import headerImage from 'spaceHeader';
+import headerImage from './spaceHeader.jpeg';
 
 const Header = () => {
     return (
