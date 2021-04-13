@@ -4,7 +4,7 @@ import headerImage from './spaceHeader.jpeg';
 const Header = () => {
     return (
         <div>
-            <img src={headerImage} height={10} width={100}/>
+            <span><img src={headerImage} /></span>
             <h1>My Website Header!</h1>
         </div>        
     )
