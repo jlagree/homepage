@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Jumbotron>
             <Container>
-                <img src={headerImage}/> <br/>
+                <img src={headerImage} style="height:10%"/> <br/>
                 <h1>Messing with React!</h1>
             </Container>
         </Jumbotron>       
