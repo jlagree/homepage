@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Jumbotron fluid>
+        <Jumbotron>
             <Container>
                 <img src={headerImage}/> <br/>
                 <h1>Messing with React!</h1>
