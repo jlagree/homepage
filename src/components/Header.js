@@ -10,7 +10,7 @@ const Header = () => {
     }
     return (
         <div className="image">
-            <img src={headerImage} style={imgStyle}/>
+            <span><img src={headerImage} style={imgStyle}/></span>
             <h1>My Website Header!</h1>
         </div>        
     )
