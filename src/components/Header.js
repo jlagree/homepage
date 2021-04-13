@@ -9,12 +9,11 @@ const Header = () => {
         right: "2px",
         bottom: "2px",
         width: "100%",
-        height: "7%"
+        height: "15%"
     }
     return (
         <div className="headerWithImage">
             <img src={headerImage} style={imgStyle}/> <br/>
-            <h1>My Website Header!</h1>
         </div>        
     )
 }
