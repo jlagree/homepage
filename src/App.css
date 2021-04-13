@@ -2,10 +2,20 @@
   text-align: center;
 }
 
+.headerWithImage{
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  width: fit-content;
+  height: 9%;
+}
+
 .footer{
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
   width: 100%;
   background-color: black;
   color: white;
