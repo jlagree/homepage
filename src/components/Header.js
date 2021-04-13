@@ -3,7 +3,6 @@ import headerImage from './spaceHeader.jpeg';
 
 const Header = () => {
     const imgStyle = {
-        position: "absolute",
         top: "2px",
         left: "2px",
         right: "2px",
