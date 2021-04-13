@@ -9,4 +9,7 @@ const Footer = () => {
     )
 }
 
-export default Footer
+ReactDOM.render(
+    <Footer />,
+    document.getElementById('footer')
+);

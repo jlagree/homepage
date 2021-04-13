@@ -1,16 +1,15 @@
 import React from 'react'
 import headerImage from './header.jpeg';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import { Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Jumbotron>
-            <Container>
-                <h1>Welcome to React Testing</h1>
-            </Container>
-        </Jumbotron>       
+        <div>
+            <img src={headerImage} alt="Header image"/>
+        </div>       
     )
 }
 
-export default Header
+ReactDOM.render(
+    <Header />,
+    document.getElementById('header')
+);
