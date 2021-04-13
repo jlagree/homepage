@@ -7,16 +7,18 @@ const NavMenu = () => {
         color: 'white'
     }
     return (
-        <nav>
-            <ul className="nav-links">
-                <Link style={navstyle} to='/home'>
-                    <li>Home</li>
-                </Link>
-                <Link style={navstyle} to='/about'>
-                    <li>About</li>
-                </Link>
-            </ul>
-        </nav>
+        <div>
+            <nav>
+                <ul className="nav-links">
+                    <Link style={navstyle} to='/home'>
+                        <li>Home</li>
+                    </Link>
+                    <Link style={navstyle} to='/about'>
+                        <li>About</li>
+                    </Link>
+                </ul>
+            </nav>
+        </div>
     )
 }
 
