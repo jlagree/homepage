@@ -16,6 +16,9 @@ const NavMenu = () => {
                     <Link style={navstyle} to='/certifications'>
                         <li>Certifications</li>
                     </Link>
+                    <Link style={navstyle} to='/contact'>
+                        <li>Contact</li>
+                    </Link>
                 </ul>
             </nav>
         </div>
