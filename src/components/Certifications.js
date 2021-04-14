@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import navySeal from './im/USNSeal.png';
+import navySeal from './img/USNSeal.png';
 import LPOA from './img/Leitner-Poma.jpeg';
 import Navakai from './img/navakai-inc.jpeg';
 
