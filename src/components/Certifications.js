@@ -9,7 +9,8 @@ const Certifications = () => {
     return (
         <div className="cert-container">
             <div className="left-cert-div">
-                <h1>Certifications/Training Background</h1>
+                <h1><b>Certifications/Training Background</b></h1>
+                <h3><b>US Navy Certifications/Training</b></h3>
                 <p>I received most of my certifications and training through the military. Before entering the service
                     I had never really been very interested or knowledgeable about computers. The navy really introduced me to technology and from there
                     is where my drive to continue in the field started.</p>
@@ -35,6 +36,7 @@ const Certifications = () => {
                     </Table>
                     <br/>
                     <br/>
+                <h3><b>Navakai Certifications</b></h3>
                 <p>I later earned a few more certifications while working at Navakai in Colorado Springs. Upon being hired, we had 90 days
                     to become a MCP(Microsoft Certified Professional). Our company had a partnership with Microsoft, so 70% of our IT staff had to be
                     certified.
@@ -62,6 +64,7 @@ const Certifications = () => {
                     These courses tend to focus on web-app development ranging in technologies such as PHP, MySQL, HTML, CSS, JavaScript. I have also
                     began to learn some popular frameworks used for web development.
                 </p>
+                <h3><b>Leitner-Poma of America Training</b></h3>
                 <Table striped bordered hover variant="dark">
                         <thead>
                             <tr>Year</tr>

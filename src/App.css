@@ -10,6 +10,27 @@
   text-align: center;
 }
 
+.contact-container-div{
+  padding: 10px;
+  font-size: 40pt;
+  top:5px;
+  bottom: 5px;
+}
+
+.contactImageDiv{
+  width: 45%;
+  float:left;
+  padding: 10px;
+  right:2px;
+}
+
+.contactTextDiv{
+  width: 55%;
+  float:left;
+  left:2px;
+  padding: 10px;
+}
+
 .cert-container{
   padding: 10px;
   font-size: large;
