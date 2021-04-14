@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import headerImage from './header.jpeg';
 
-const Header = () => {
+const Banner = () => {
     return (
         <div>
             <img src={headerImage} alt="Header image"/>
@@ -11,6 +11,6 @@ const Header = () => {
 }
 
 ReactDOM.render(
-    <Header />,
+    <Banner />,
     document.getElementById('header')
 );
