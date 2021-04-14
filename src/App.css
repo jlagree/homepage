@@ -4,8 +4,9 @@
   left: 0;
   bottom: 0;
   right: 0;
+  top: 10px;
   width: 100%;
-  background-color: black;
+  background-color: #152238;
   color: white;
   text-align: center;
 }
@@ -28,7 +29,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 5vh;
-  background-color: black;
+  background-color: #152238;
   color: white;
 }
 
@@ -44,12 +45,14 @@ nav {
 .panel-container{
   padding: 10px;
   font-size: large;
+  border: 2px solid #152238;
 }
 
 .left-panel{
-  width: 40%;
+  width: 25%;
   float: left;
   padding: 10px;
+  border: 2px solid #152238;
 }
 
 .left-panel img{
@@ -58,7 +61,8 @@ nav {
 }
 
 .right-panel{
-  width: 60%;
+  width: 75%;
   float:left;
   padding: 10px;
+  border: 2px solid #152238;
 }
