@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.a51ca84f.chunk.css",
+    "main.css": "/homepage/static/css/main.5f790eed.chunk.css",
     "main.js": "/homepage/static/js/main.6eb90659.chunk.js",
     "main.js.map": "/homepage/static/js/main.6eb90659.chunk.js.map",
     "runtime-main.js": "/homepage/static/js/runtime-main.634fc77c.js",
@@ -12,7 +12,7 @@
     "static/js/3.79a454ae.chunk.js.map": "/homepage/static/js/3.79a454ae.chunk.js.map",
     "index.html": "/homepage/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/homepage/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a51ca84f.chunk.css.map": "/homepage/static/css/main.a51ca84f.chunk.css.map",
+    "static/css/main.5f790eed.chunk.css.map": "/homepage/static/css/main.5f790eed.chunk.css.map",
     "static/js/2.4ea07b8a.chunk.js.LICENSE.txt": "/homepage/static/js/2.4ea07b8a.chunk.js.LICENSE.txt",
     "static/media/ContactPhoto.f1d258f1.jpeg": "/homepage/static/media/ContactPhoto.f1d258f1.jpeg",
     "static/media/Leitner-Poma.6b564ea5.jpeg": "/homepage/static/media/Leitner-Poma.6b564ea5.jpeg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.634fc77c.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4ea07b8a.chunk.js",
-    "static/css/main.a51ca84f.chunk.css",
+    "static/css/main.5f790eed.chunk.css",
     "static/js/main.6eb90659.chunk.js"
   ]
 }
