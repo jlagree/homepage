@@ -1,5 +1,5 @@
 import React from 'react';
-import navyImage from './Navy.jpg';
+import navyImage from './img/Navy.jpg';
 import Table from 'react-bootstrap/Table';
 import '../App.css';
 
