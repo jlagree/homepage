@@ -1,8 +1,9 @@
 import React from 'react'
+import '../App.css';
 
 const Certifications = () => {
     return (
-        <div>
+        <div className="cert-container">
             <h1>Certifications/Training Background</h1>
             <p>I received most of my certifications and training through the military. Before entering the service
                 I had never really been very interested or knowledgeable about computers. The navy really introduced me to technology and from there
