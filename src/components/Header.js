@@ -5,7 +5,7 @@ import headerImage from './header.jpeg';
 const Banner = () => {
     return (
         <div>
-            <img src={headerImage} alt="Header image"/>
+            <img src={headerImage} alt="Header-image"/>
         </div>       
     )
 }

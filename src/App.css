@@ -29,3 +29,21 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+.panel-container{
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.left-panel{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+.right-panel{
+  width: 60%;
+  float:left;
+  padding: 10px;
+  border: 2px solid black;
+}
