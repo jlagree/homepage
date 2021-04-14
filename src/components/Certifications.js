@@ -16,8 +16,8 @@ const Certifications = () => {
                     is where my drive to continue in the field started.</p>
                     <Table striped bordered hover variant="dark">
                         <thead>
-                            <tr>Year</tr>
-                            <tr>Cert/Training</tr>
+                            <th>Year</th>
+                            <th>Cert/Training</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -43,8 +43,8 @@ const Certifications = () => {
                 </p>
                 <Table striped bordered hover variant="dark">
                         <thead>
-                            <tr>Year</tr>
-                            <tr>Cert/Training</tr>
+                            <th>Year</th>
+                            <th>Cert/Training</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -67,8 +67,8 @@ const Certifications = () => {
                 </p>
                 <Table striped bordered hover variant="dark">
                         <thead>
-                            <tr>Year</tr>
-                            <tr>Cert/Training</tr>
+                            <th>Year</th>
+                            <th>Cert/Training</th>
                         </thead>
                         <tbody>
                             <tr>
