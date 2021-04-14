@@ -59,12 +59,12 @@ const Certifications = () => {
                     </Table>
                     <br/>
                     <br/>
+                <h3><b>Leitner-Poma of America Training</b></h3>
                 <p> At Leitner-Poma of America, I have had little time to acquire certifications and instead was at the point where I could really
                     put all my training into practice. Upon moving to the developer role, I started doing most of my training with Udemy courses.
                     These courses tend to focus on web-app development ranging in technologies such as PHP, MySQL, HTML, CSS, JavaScript. I have also
                     began to learn some popular frameworks used for web development.
                 </p>
-                <h3><b>Leitner-Poma of America Training</b></h3>
                 <Table striped bordered hover variant="dark">
                         <thead>
                             <tr>Year</tr>
