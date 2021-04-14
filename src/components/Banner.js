@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className="bannerDiv">
             <img src={headerImage} alt="Header-image"/>
-            <div className="imageText"><b>My React Website</b></div>
+            <div className="imageText"><b>Jay's Website</b></div>
         </div>       
     )
 }

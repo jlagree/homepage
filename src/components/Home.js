@@ -41,7 +41,7 @@ const Home = () => {
           </p>
         </div>
         <div className='right-panel'>
-          <h2><b>Previous Experience</b></h2>
+          <h1><b>Previous Experience with IT, Software Development, and Education.</b></h1>
           <Table striped bordered hover variant="dark">
             <thead>
               <tr>
