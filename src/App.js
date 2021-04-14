@@ -13,7 +13,7 @@ function App() {
       <div className='App'>
         <Banner/>
         <NavMenu/>
-        <Route path='/' exact component={Home}/>
+        <Route exact path='/' component={Home}/>
         <Route path='/home' component={Home}/>
         <Route path="/certifications" component={Certifications}/>
         <Route path='/contact' component={Contact}/>
