@@ -98,7 +98,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  font-size: large;
+  font-size: 18pt;
 }
 
 .panel-container{
@@ -113,6 +113,8 @@ nav {
   float: left;
   padding: 10px;
   right:2px;
+  padding-bottom: 10px;
+  
 }
 
 .left-panel img{
@@ -125,4 +127,5 @@ nav {
   float:left;
   left: 2px;
   padding: 10px;
+  padding-bottom: 10px;
 }
