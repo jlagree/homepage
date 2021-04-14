@@ -14,7 +14,7 @@ function App() {
         <Banner/>
         <NavMenu/>
         <Route exact path='/' component={Home}/>
-        <Route path='/home' component={Home}/>
+        <Route path='/homepage' component={Home}/>
         <Route path="/certifications" component={Certifications}/>
         <Route path='/contact' component={Contact}/>
         <Footer/>
