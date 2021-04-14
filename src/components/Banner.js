@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 import headerImage from './header.jpeg';
 
 const Banner = () => {
@@ -10,7 +9,4 @@ const Banner = () => {
     )
 }
 
-ReactDOM.render(
-    <Banner />,
-    document.getElementById('header')
-);
+export default Banner;

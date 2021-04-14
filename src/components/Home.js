@@ -7,14 +7,14 @@ const Home = () => {
     return (
       <div className="panel-container">
         <div className="left-panel">
-          <h2>Who am I?</h2>
-          <a href="https://www.linkedin.com/in/jeremy-lagree-20b8b4101">LinkedIN</a><br/>
-          <img src={navyImage}/>
+          <h2><b>Who am I?</b></h2>
           <p>My name is Jeremy LaGree. I am currently in my senior year at
                 Colorado Mesa University. I am writing this page for an assignment
                 to test our knowledge with using a React-App.
           </p>
-          <h2>Previous Experience</h2>
+          <b><a href="https://www.linkedin.com/in/jeremy-lagree-20b8b4101">LinkedIN</a></b><br/>
+          <img src={navyImage}/>
+          <h2><b>About Me!</b></h2>
           <p>
           I spent four years in the United States Navy as an Information systems
           technicain. In that time I traveled to many different countries and learned
@@ -39,6 +39,7 @@ const Home = () => {
           </p>
         </div>
         <div className='right-panel'>
+          <h2><b>Previous Experience</b></h2>
           <Table striped bordered hover variant="dark">
             <thead>
               <tr>
