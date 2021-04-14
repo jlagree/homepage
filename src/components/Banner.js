@@ -1,9 +1,10 @@
 import React from 'react'
 import headerImage from './header.jpeg';
+import '../App.css';
 
 const Banner = () => {
     return (
-        <div>
+        <div className="bannerDiv">
             <img src={headerImage} alt="Header-image"/>
         </div>       
     )
