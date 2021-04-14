@@ -41,6 +41,10 @@ nav {
   padding: 10px;
 }
 
+.left-panel img{
+  object-fit: contain;
+}
+
 .right-panel{
   width: 60%;
   float:left;

@@ -13,8 +13,8 @@ const NavMenu = () => {
                     <Link style={navstyle} to='/home'>
                         <li>Home</li>
                     </Link>
-                    <Link style={navstyle} to='/about'>
-                        <li>About</li>
+                    <Link style={navstyle} to='/certifications'>
+                        <li>Certifications</li>
                     </Link>
                 </ul>
             </nav>
