@@ -46,7 +46,6 @@ nav {
   font-size: large;
   top:5px;
   bottom: 5px;
-  border: 2px solid #152238;
 }
 
 .left-panel{
@@ -54,6 +53,7 @@ nav {
   float: left;
   padding: 10px;
   border: 2px solid #152238;
+  right:2px;
 }
 
 .left-panel img{
@@ -64,6 +64,7 @@ nav {
 .right-panel{
   width: 75%;
   float:left;
+  left: 2px;
   padding: 10px;
   border: 2px solid #152238;
 }
