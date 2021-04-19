@@ -1,5 +1,6 @@
 import React from 'react';
 import navyImage from './img/Navy.jpg';
+import Dog from './img/meandRome.jpg';
 import Table from 'react-bootstrap/Table';
 import '../App.css';
 
@@ -54,6 +55,7 @@ const Home = () => {
             beats being on the course on a nice summer day. Camping is usually a weekend thing and I try to go whenever I can. We have a few 
             4-Wheelers and a side-by-side, so our trips usually include a long ride and a few mud puddles.
           </p>
+          <img src={Dog} alt="Me-and-Roman"/>
         </div>
         <div className='right-panel'>
           <h1><b>Previous Experience with IT, Software Development, and Education.</b></h1>
