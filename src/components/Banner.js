@@ -8,7 +8,6 @@ const Banner = () => {
             <img src={headerImage} alt="Header-image"/>
             <div className="imageText">
                 <b>Jeremy LaGree</b><br/>
-                Web App Developer
             </div>
         </div>       
     )
