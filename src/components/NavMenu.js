@@ -9,7 +9,6 @@ const NavMenu = () => {
     return (
         <div>
             <nav>
-                <Router>
                 <ul className="nav-links">
                     <Link style={navstyle} to='/homepage'>
                         <li>Home</li>
@@ -21,7 +20,6 @@ const NavMenu = () => {
                         <li>Contact</li>
                     </Link>
                 </ul>
-                </Router>
             </nav>
         </div>
     )
