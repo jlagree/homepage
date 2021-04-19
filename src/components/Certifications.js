@@ -85,13 +85,13 @@ const Certifications = () => {
                     <br/>
             </div>
             <div className="right-cert-div">
-                <img src={navySeal} />
+                <img src={navySeal} alt="navyLogo"/>
                 <br/>
                 <br/>
-                <img src={Navakai} />
+                <img src={Navakai} alt="navakaiLogo"/>
                 <br/>
                 <br/>
-                <img src={LPOA} />
+                <img src={LPOA} alt="LPOALogo"/>
                 <br/>
                 <br/>
             </div>

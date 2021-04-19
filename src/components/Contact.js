@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="contact-container-div">
             <div className="contactImageDiv">
-                <img src={ContactPhoto} alt="contact photo"/>
+                <img src={ContactPhoto} alt="contactPhoto"/>
             </div>
             <div className="contactTextDiv">
                 <h1><b>Mailing Address</b></h1>

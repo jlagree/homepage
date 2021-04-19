@@ -13,7 +13,7 @@ const Home = () => {
                 to test our knowledge with using a React-App.
           </p>
           <b><a href="https://www.linkedin.com/in/jeremy-lagree-20b8b4101">LinkedIN</a></b><br/>
-          <img src={navyImage}/>
+          {/* <img src={navyImage} alt="navypic"/> */}
           <h2><b>About Me!</b></h2>
           <p>
           I spent four years in the United States Navy as an Information systems
@@ -76,6 +76,7 @@ const Home = () => {
               </tr>
             </tbody>
           </Table>
+          <img src={navyImage} alt="navypic"/>
         </div>
       </div>
       );
