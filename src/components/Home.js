@@ -12,9 +12,13 @@ const Home = () => {
                 Colorado Mesa University. I am writing this page for an assignment
                 to test our knowledge with using a React-App.
           </p>
-          <b><a href="https://www.linkedin.com/in/jeremy-lagree-20b8b4101">LinkedIN</a></b><br/>
+          <b><a href="https://www.linkedin.com/in/jeremy-lagree-20b8b4101">LinkedIN</a></b><br/><br/>
           {/* <img src={navyImage} alt="navypic"/> */}
           <h2><b>About Me!</b></h2>
+          <p>
+            I grew up here in the valley and went to Central high school. At Central I played football, baseball, and golf.
+            After I graduated, I decided to join the military. 
+          </p>
           <p>
           I spent four years in the United States Navy as an Information systems
           technicain. In that time I traveled to many different countries and learned
@@ -38,6 +42,17 @@ const Home = () => {
           been in place for quiet some time which makes it all very complex. While it has not been
           extremely inviting to a new developer, I am getting by and hope to continue to grow with the company
           and grow as a developer!
+          </p>
+
+          <h2><b>Hobbies!</b></h2>
+          <p>
+            I like to do all the standard Colorado stuff like hiking, snowboarding, camping, and hunting. Of that list
+            I would argue that snowboarding has to be my favorite. I have been to almost every resort in Colorado and would have
+            to say that Breckenridge and Steamboat my number 1's. 
+          </p>
+          <p>In the summer months, most of my time is spent golfing or camping. For how much I golf I should be a lot better, but nothing
+            beats being on the course on a nice summer day. Camping is usually a weekend thing and I try to go whenever I can. We have a few 
+            4-Wheelers and a side-by-side, so our trips usually include a long ride and a few mud puddles.
           </p>
         </div>
         <div className='right-panel'>
